@@ -1,0 +1,5 @@
+name: zmk-keyboard-delta-omega
+build:
+  depends: [zmk-rgbled-widget]
+  settings:
+    board_root: .
