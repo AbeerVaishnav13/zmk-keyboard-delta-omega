@@ -3,6 +3,9 @@
         led-red = &led0;
         led-green = &led1;
         led-blue = &led2;
+        led-red-pcb = &led3;
+        led-green-pcb = &led4;
+        led-blue-pcb = &led5;
     };
 
     leds {
@@ -16,6 +19,15 @@
         };
         led2: led_2 {
             gpios = <&gpio0 6 GPIO_ACTIVE_LOW>;
+        };
+        led3: led_3 {
+            gpios = <&gpio1 15 GPIO_ACTIVE_HIGH>;
+        };
+        led4: led_4 {
+            gpios = <&gpio1 14 GPIO_ACTIVE_HIGH>;
+        };
+        led5: led_5 {
+            gpios = <&gpio0 10 GPIO_ACTIVE_HIGH>;
         };
     };
 };
