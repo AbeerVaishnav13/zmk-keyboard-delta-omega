@@ -4,7 +4,7 @@ name: delta_omega
 type: shield
 url: https://github.com/unspecworks/delta-omega
 requires:
-  - seeeduino_xiao_ble
+  - xiao_ble//zmk
 features:
   - keys
 siblings:

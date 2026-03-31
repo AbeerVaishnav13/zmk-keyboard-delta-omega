@@ -1,5 +1,4 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <behaviors/rgbled_widget.dtsi>
 / {
 	chosen {
 		zmk,kscan = &kscan0;
